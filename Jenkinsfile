@@ -75,7 +75,7 @@ pipeline {
         }
         stage('Setup for FPGA tests') {
             when {
-                branch 'master'
+                branch 'pr-faster_testing'
                 anyOf {
                     triggeredBy cause: "UserIdCause"
                     triggeredBy 'TimerTrigger'
@@ -211,7 +211,7 @@ pipeline {
         }
         stage('Run FPGA tests') {
             when {
-                branch 'master'
+                branch 'pr-faster_testing'
                 anyOf {
                     triggeredBy cause: "UserIdCause"
                     triggeredBy 'TimerTrigger'
