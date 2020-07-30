@@ -50,3 +50,6 @@
 [submodule "pex-firmware"]
 	path = pex-firmware
 	url = https://github.com/draperlaboratory/hope-pex-firmware.git
+[submodule "ref-pex-kernel"]
+	path = ref-pex-kernel
+	url = git@github.com:ref-pipe/ref-pex-kernel.git
