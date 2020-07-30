@@ -1,15 +1,15 @@
 [submodule "tools"]
 	path = tools
-	url = https://github.com/draperlaboratory/hope-tools.git
-	branch = master
+	url = https://github.com/ref-pipe/hope-tools.git
+	branch = refpipe-runtime
 [submodule "riscv-gnu-toolchain"]
 	path = riscv-gnu-toolchain
 	url = https://github.com/draperlaboratory/hope-riscv-gnu-toolchain.git
 	branch = master
 [submodule "policies"]
 	path = policies
-	url = https://github.com/draperlaboratory/hope-policies.git
-	branch = master
+	url = https://github.com/ref-pipe/hope-policies.git
+	branch = ref-makefile
 [submodule "FreeRTOS"]
 	path = FreeRTOS
 	url = https://github.com/draperlaboratory/hope-FreeRTOS.git
@@ -20,12 +20,12 @@
 	branch = master
 [submodule "policy-engine"]
 	path = policy-engine
-	url = https://github.com/draperlaboratory/hope-policy-engine.git
-	branch = master
+	url = https://github.com/ref-pipe/hope-policy-engine.git
+	branch = ref-soc-cfg
 [submodule "freedom-e-sdk"]
 	path = freedom-e-sdk
-	url = https://github.com/draperlaboratory/hope-freedom-e-sdk.git
-	branch = master
+	url = https://github.com/ref-pipe/hope-freedom-e-sdk.git
+	branch = refpipe-bsp
 [submodule "riscv-newlib"]
 	path = riscv-newlib
 	url = https://github.com/draperlaboratory/hope-riscv-newlib.git
@@ -52,4 +52,4 @@
 	url = https://github.com/draperlaboratory/hope-pex-firmware.git
 [submodule "ref-pex-kernel"]
 	path = ref-pex-kernel
-	url = git@github.com:ref-pipe/ref-pex-kernel.git
+	url = https://github.com/ref-pipe/ref-pex-kernel.git
