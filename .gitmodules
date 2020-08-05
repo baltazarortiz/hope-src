@@ -53,3 +53,6 @@
 [submodule "ref-pex-kernel"]
 	path = ref-pex-kernel
 	url = https://github.com/ref-pipe/ref-pex-kernel.git
+[submodule "chipyard-ref-pipe"]
+	path = chipyard-ref-pipe
+	url = https://github.com/ref-pipe/chipyard-ref-pipe.git
